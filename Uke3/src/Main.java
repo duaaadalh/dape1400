@@ -150,7 +150,27 @@ public class Main {
 
         //Oppgave 11
 
-       //Spør Karsten
+       // 1. lag en JOption.pane som tar i mot tall som string
+        // 2. finn lengden av stringen
+        // 3. lag en for loop som looper for lengden av strengen
+        // 4. før for loopen, deklarer en int med verdi lik 0
+        // 5. inn i for loopen, finn den n bokstaven i stringen og konverter til int
+        // 6. legg til int på 4.
+        // 7. skriv ut int fra 4.
+
+        String tall1 = JOptionPane.showInputDialog("Skriv inn tall");
+        int tall = Integer.parseInt(tall1);
+
+        int tallLengde= tall1.length();
+
+        int tverrSum = 0;
+        for (int i = 0; i < tallLengde; i++){
+           String tall3 = String.valueOf(tall1.charAt(i));
+           int intTall3 = Integer.parseInt(tall3);
+           tverrSum += intTall3;
+        }
+
+        System.out.println("Fmjau " + Integer.toString(tverrSum));
 
 
 
