@@ -1,5 +1,7 @@
 package StatiskMetode;
 
+import java.text.DecimalFormat;
+
 public class statiskMetode {
 
     private static double beregnAreal(double radius){
@@ -11,7 +13,8 @@ public class statiskMetode {
     public static void main (String [] args) {
         double radius = 23.23;
         double areal = beregnAreal(radius);
-        System.out.println("Arealet til en sirkel med radius" + radius+ " er "+ areal);
+        DecimalFormat df2 = new DecimalFormat(".##"); // For å få kun to desimaler
+        System.out.println("Arealet til en sirkel med radius " + radius+ " er "+ df2.format(areal));
 
 
     }
