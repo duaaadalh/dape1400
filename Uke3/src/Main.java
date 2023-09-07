@@ -158,24 +158,24 @@ public class Main {
         // 6. legg til int på 4.
         // 7. skriv ut int fra 4.
 
-        String tall1 = JOptionPane.showInputDialog("Skriv inn tall");
-        int tall = Integer.parseInt(tall1);
+       // String tall1 = JOptionPane.showInputDialog("Skriv inn tall");
+      //  int tall = Integer.parseInt(tall1);
 
-        int tallLengde= tall1.length();
+       // int tallLengde= tall1.length();
 
-        int tverrSum = 0;
-        for (int i = 0; i < tallLengde; i++){
-           String tall3 = String.valueOf(tall1.charAt(i));
-           int intTall3 = Integer.parseInt(tall3);
-           tverrSum += intTall3;
+       // int tverrSum = 0;
+        //for (int i = 0; i < tallLengde; i++){
+        //   String tall3 = String.valueOf(tall1.charAt(i));
+        //   int intTall3 = Integer.parseInt(tall3);
+         //  tverrSum += intTall3;
         }
 
-        System.out.println("Fmjau " + Integer.toString(tverrSum));
+      //  System.out.println("Fmjau " + Integer.toString(tverrSum));
 
 
 
     }
-}
+
 
 
 

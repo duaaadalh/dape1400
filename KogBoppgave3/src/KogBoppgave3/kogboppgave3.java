@@ -13,5 +13,6 @@ class Personer{
 
 public class kogboppgave3 {
     public static void main(String[] args) {
+        
     }
 }
