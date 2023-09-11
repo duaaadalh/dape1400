@@ -54,22 +54,21 @@ class Personer{
 
 public class kogboppgave3 {
     public static void main(String[] args) {
-        Personer Duaa = new Personer();
-        int mjau = Duaa.f(13);
-        int mjau2 = Duaa.g(12,34);
-        Personer nyPerson = new Personer();
-
-        nyPerson.navn = "Per Hansen";
-        nyPerson.adresse = "Osloveien 82";
-        nyPerson.telefonnr = "21124512";
-        nyPerson.alder = "21 år";
+        
 
         String innForNavn = JOptionPane.showInputDialog("Skriv inn navn");
         String innForAdresse = JOptionPane.showInputDialog("Skriv inn adresse");
         String innForTelefonnr = JOptionPane.showInputDialog("Skriv inn telefonnr");
         String innForAlder = JOptionPane.showInputDialog("Skriv inn alder");
 
-        JOptionPane.showMessageDialog(null, "Navn: "+ nyPerson.getNavn() + "\n"+ "Adresse: "+ nyPerson.getAdresse() +"\n"+ "Telefonnummer; "+ nyPerson.getTelefonnr() +"\n"+ "Alder: "+ nyPerson.getAlder());
+
+        Personer hello = new Personer();
+        hello.navn = innForNavn;
+        hello.adresse = innForAdresse;
+        hello.telefonnr = innForTelefonnr;
+        hello.alder = innForAlder;
+
+        JOptionPane.showMessageDialog(null, "Navn: "+ hello.getNavn() + "\n"+ "Adresse: "+ hello.getAdresse() +"\n"+ "Telefonnummer; "+ hello.getTelefonnr() +"\n"+ "Alder: "+ hello.getAlder());
 
 
 
