@@ -25,3 +25,4 @@ public class ifsetninger {
     }
 
 
+// kan også bruke 'mellom' if (alder >= 18 && alder <= 70) JOptionPane.showMessageDialog
