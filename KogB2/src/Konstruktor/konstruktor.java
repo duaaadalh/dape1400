@@ -5,6 +5,8 @@ class Bil{
     private String farge;
     private int HK;
 
+    // det nedenfor er en konstruktør
+
     public Bil(String farge, int HK){
         this.farge = farge;
         this.HK = HK;
@@ -29,10 +31,9 @@ class Bil{
 
 
 
-
-
 public class konstruktor {
     public static void main(String[] args) {
+        // slik at man direkte kan putte dem nedenfor
         Bil volvo = new Bil("Rød", 234);
         int HK = volvo.getHK();
         String farge = volvo.getFarge();
