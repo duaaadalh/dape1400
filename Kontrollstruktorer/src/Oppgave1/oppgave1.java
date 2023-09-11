@@ -12,7 +12,7 @@ public class oppgave1 {
         if (alder >= 20 && alder >= 18){
             JOptionPane.showMessageDialog(null, "Du er myndig og kan i tillegg kjøpe hva du vil på polet");
         }
-        else if (alder > 18 && alder < 20){
+        else if (alder >= 18 && alder < 20){
             JOptionPane.showMessageDialog(null, "Du er myndig men kan ikke kjøpe alkohol over 22%");
         }
 
