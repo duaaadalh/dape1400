@@ -16,8 +16,16 @@ public class Oppgave2 {
         tallListe.add(9);
         tallListe.add(10);
         tallListe.add(11);
-        tallListe.remove(2);
-        tallListe.remove(3);
+
+        // enten kan man gjøre dette: Da fjerner man ut ifra posisjonen i listen
+       // tallListe.remove(2);
+        //tallListe.remove(1);
+
+        // eller slik, ved å fjerne verdiene uten å måtte lete selv etter posisjonen i listen
+
+        tallListe.remove(Integer.valueOf(2));
+        tallListe.remove(Integer.valueOf(3));
+
 
         System.out.println("Elementer i arraylist: ");
         for (int i = 0;i < tallListe.size(); i++) {
