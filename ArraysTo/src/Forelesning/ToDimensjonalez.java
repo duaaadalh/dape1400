@@ -9,7 +9,15 @@ public class ToDimensjonalez {
 
         for (int i = 0; i < tabell.length; i++){
             for (int j = 0; j < tabell[i].length; j++){
-                System.out.print(tabell[i][j]);
+                System.out.print(tabell[i][j] + " ");
+            }
+        }
+
+        System.out.println();
+        for (int [] liste : tabell){
+            for (int tall : liste){
+                System.out.print(tall + " ");
+
             }
         }
     }
