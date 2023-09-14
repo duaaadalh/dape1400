@@ -1,7 +1,6 @@
-package IntroArraysTo;
+package Forelesning;
 
-public class ToDimensjonale {
-
+public class ToDimensjonalez {
     public static void main(String[] args){
         int [][] tabell = new int[4][4];
         tabell[0][0] = 23;
