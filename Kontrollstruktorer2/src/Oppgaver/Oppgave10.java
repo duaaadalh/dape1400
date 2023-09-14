@@ -4,33 +4,22 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Oppgave10 {
-    public static void main(String[] args){
-        int[] allePrimTallOppTil10 = finnAllePrimtall(10);
-        System.out.println(Arrays.toString(allePrimTallOppTil10));
-
-
-        // 1, 3, 5, 7
-    }
-
-    public static int[] finnAllePrimtall(int oppTilDetteTallet) {
-        int[] primtallliste = {};
-        for (int i = 2; i < oppTilDetteTallet; i++){
-            boolean erEtPrimtall = true;
-            for (int j = 1; j < i; j++){
+    public static void main(String[] args) {
+        int n = 100;
+        for (int i = 2; i<= n; i++){
+            int count = 0;
+            for (int j = 2; j<i; j++){
                 if (i % j == 0){
-                    erEtPrimtall = false;
+                    count ++;
                 }
             }
-            if (erEtPrimtall == true){
-                System.out.println(i);
-                primtallliste = Arrays.copyOf(primtallliste, primtallliste.length + 1);
-                primtallliste[primtallliste.length - 1] = i;
+            if (count == 0){
+                System.out.println(i + " ");
             }
         }
-
-        return primtallliste;
     }
-}
+    }
+
 
 
 // Lag en primtallsgenerator.
