@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf4014bd-721b-4a59-ad83-1c940f7561fa" name="Changes" comment="" />
+    <list default="true" id="bf4014bd-721b-4a59-ad83-1c940f7561fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Aritmetikk1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Aritmetikk1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +12,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2VZOX9zvwWZoGHjUwUU4vlvarOq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +26,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/duaaal-hemdany/Documents/repos/dape1400/untitled",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -36,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695040175082</updated>
       <workItem from="1695040176553" duration="95000" />
+      <workItem from="1695040948591" duration="4000" />
     </task>
     <servers />
   </component>

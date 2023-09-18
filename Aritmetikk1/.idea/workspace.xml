@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2feb966f-1771-4957-99f8-60e3ac8c985c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/Aritmetikk.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Aritmetikk/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="2feb966f-1771-4957-99f8-60e3ac8c985c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +10,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2VZOZuOoOEEnSyn0K1PT44dnRZO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +25,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/duaaal-hemdany/Documents/repos/dape1400/Aritmetikk1",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -45,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695040196089</updated>
       <workItem from="1695040197879" duration="134000" />
+      <workItem from="1695040372073" duration="25000" />
     </task>
     <servers />
   </component>
