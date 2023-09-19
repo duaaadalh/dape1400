@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.oppgave.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.oppgave.HelloController">
+   <children>
+      <Label layoutX="63.0" layoutY="216.0" text="Engangsbeløp" />
+      <Label layoutX="63.0" layoutY="248.0" text="Sparerente (%)" />
+      <Label layoutX="63.0" layoutY="285.0" text="Antall år" />
+      <TextField fx:id="txtBeløp" layoutX="300.0" layoutY="212.0" />
+      <TextField fx:id="txtRente" layoutX="300.0" layoutY="244.0" />
+      <TextField fx:id="txtAntallÅr" layoutX="300.0" layoutY="280.0" />
+      <Label layoutX="63.0" layoutY="35.0" prefHeight="32.0" prefWidth="141.0" text="Sparing">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblResultat" layoutX="244.0" layoutY="341.0" prefHeight="17.0" prefWidth="246.0" />
+      <Button layoutX="340.0" layoutY="125.0" mnemonicParsing="false" onAction="#Beregn" text="Beregn sparing" />
+   </children>
+</Pane>
