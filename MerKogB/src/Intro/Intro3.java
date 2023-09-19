@@ -9,7 +9,7 @@ public class Intro3 {
     public static void main(String[] args) {
 
         Bil enBil = new Bil();
-        enBil.type = "Vovlo";
+        enBil.type = "Volvo";
         //Bil.antallHjul = 4;
 
         System.out.println(enBil.type+" har antall hjul:"+Bil.ANTALL_HJUL);
