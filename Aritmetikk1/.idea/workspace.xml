@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2feb966f-1771-4957-99f8-60e3ac8c985c" name="Changes" comment="" />
+    <list default="true" id="2feb966f-1771-4957-99f8-60e3ac8c985c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../eksempel/src/main/java/com/example/eksempel/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../eksempel/src/main/java/com/example/eksempel/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eksempel/src/main/resources/com/example/eksempel/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../eksempel/src/main/resources/com/example/eksempel/hello-view.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +32,10 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/duaaal-hemdany/Documents/repos/dape1400/Aritmetikk1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,6 +49,7 @@
       <updated>1695040196089</updated>
       <workItem from="1695040197879" duration="134000" />
       <workItem from="1695040372073" duration="25000" />
+      <workItem from="1695062425498" duration="316000" />
     </task>
     <servers />
   </component>
