@@ -15,7 +15,7 @@ public class Sirkel {
         return Math.PI*Math.pow(radius,2);
     }
 
-    
+
 
     public static void main(String[] args) {
         double radius = 6.7;
