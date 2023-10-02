@@ -57,7 +57,7 @@ class Klokke{
 
     public class Oppgave4 {
         public static void main(String[] args){
-            Klokke tiden = new Klokke(00, 05, 13);
+            Klokke tiden = new Klokke(34, 14, 13);
             tiden.visTiden();
 
             // Her er vi i en annen klasse og må bruke konstruktøren
