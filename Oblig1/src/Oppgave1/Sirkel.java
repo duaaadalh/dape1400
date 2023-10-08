@@ -8,6 +8,7 @@ public class Sirkel {
     }
 
     public static double omkrets (double radius){
+
         return 2*Math.PI * radius;
     }
 
