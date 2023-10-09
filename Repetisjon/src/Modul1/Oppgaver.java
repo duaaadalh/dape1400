@@ -2,7 +2,7 @@ package Modul1;
 
 import javax.swing.*;
 
-public class Oppgave1 {
+public class Oppgaver {
     public static void main(String[] args) {
 
         String fornavn = JOptionPane.showInputDialog("Skriv inn fornavnet");
