@@ -16,14 +16,20 @@ public class Oppgave1 { // klasse
 
             }
 
+
+            if (i % 10 == 0){ //lager en if setning for å legge linjeskift etter hvert 10. tall
+                System.out.println();
+
+            }
+
         }
-        
+
 
     }
 
     public static void main (String [] args){
         Oppgave1 sum = new Oppgave1();
-        sum.summerTall(3,5);
+        sum.summerTall(5,100);
     }
 }
 
