@@ -1,37 +1,51 @@
 package Oppgave1;
 
-public class Oppgave1 { // klasse
-    public void summerTall(int tall1, int tall2){ // metode som tar to heltall, og printer ut alle tallene melloom og summen av dem
-        int j = 0; // initierer summen av heltallene
-        for (int i = tall1; i <= tall2; i++){ // looper gjennom alle heltallene mellom tall1 og tall2
-            System.out.print(i); // i hver loop: printer ut tallet
-            j += i; // i hver loop: legger til tallet i summen
-            if (i == tall2){ // hvis vi er på siste tall
-                System.out.print("="); // print ut =
-                System.out.print(j); // print ut sum
+import javax.swing.*;
+
+public class Oppgave1 {
+    public static void main (String [] args){
+
+
+
+
+    int nedreGrense = Integer.parseInt(JOptionPane.showInputDialog("Skriv inn et tall"));
+    int øvreGrense = Integer.parseInt(JOptionPane.showInputDialog("Skriv inn et tall"));
+    int linjeskift = 0;
+    int sum = 0;
+
+            while (øvreGrense <= nedreGrense){
+                øvreGrense = Integer.parseInt(JOptionPane.showInputDialog("Skriv inn et større tall"));
+            }
+
+
+      for (int i = nedreGrense; i <= øvreGrense; i++){
+          sum += i; }
+
+            for (int minsteTall = nedreGrense; minsteTall < øvreGrense; minsteTall++){
+                System.out.print(minsteTall + " + ");
+                linjeskift++;
+                if (linjeskift == 10){ //lager en if setning for å legge linjeskift etter hvert 10. tall
+                    System.out.print("\n");
+                    linjeskift = 0;
+            }
+
+
+
 
             }
-            else { // hvis vi ikke er ved siste tall
-                System.out.print("+"); // print ut +
 
-            }
+         System.out.print(øvreGrense + " = " + sum);
 
 
-            if (i % 10 == 0){ //lager en if setning for å legge linjeskift etter hvert 10. tall
-                System.out.println();
-
-            }
 
         }
 
 
     }
 
-    public static void main (String [] args){
-        Oppgave1 sum = new Oppgave1();
-        sum.summerTall(5,100);
-    }
-}
+
+
+
 
 
 
