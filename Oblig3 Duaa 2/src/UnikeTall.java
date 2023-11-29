@@ -56,15 +56,17 @@ public class UnikeTall {
            return største;
         }
         //Metode som regner ut gjennomsnittet og returnere det som en double
-        public double gjennomsnitt(){
+        public String gjennomsnitt(){
            int sum = 0;
            for (int tallene : tall){
                sum += tallene;
            }
-           return (double) sum/tall.length;
+           double gjennomsnitt = (double) sum/tall.length;
+           String gjennomsnittet = String.format("%.2f",gjennomsnitt);
+           return gjennomsnittet;
         }
 
-
+        // Metode for å vise frem resultatet
         public void visResultat(){
            String melding = "Tallene i arrayet: \n";
            for (int i = 0; i < tall.length; i++){
@@ -77,7 +79,7 @@ public class UnikeTall {
            // Printe ut resultatene i en meldingsboks
            int minste = minsteTall();
            int største = størsteTall();
-           double finnGjennomsnitt = gjennomsnitt();
+           String finnGjennomsnitt = gjennomsnitt();
 
            melding += "minste tallet: " + minste + "\n";
            melding += "største tallet: " + største + "\n";
