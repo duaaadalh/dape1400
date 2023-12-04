@@ -18,7 +18,7 @@ public class Oppgave21 {
 
         System.out.println(sum);
 
-        double gjennomsnitt = (double) sum/ teller;
+        double gjennomsnitt =  sum/ (double) teller;
 
         System.out.println(gjennomsnitt);
 
