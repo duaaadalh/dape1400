@@ -1,0 +1,46 @@
+
+class Liste{
+
+
+    public static int storreEnnNull (int liste []){
+        int teller = 0;
+        for (int i : liste){
+            if (i > 0){
+                teller++;
+
+            }
+        }
+        return teller;
+    }
+
+    public static int forekommer (int liste [], int tall){
+        int teller = 0;
+        for (int i : liste){
+            if (i == tall){
+                teller++;
+            }
+        }
+        return teller;
+    }
+
+    public static int storsteTall (int liste []){
+        int maks = liste[0];
+        for (int i : liste){
+            if (i > maks){
+                maks++;
+            }
+        }
+        return maks;
+    }
+
+}
+
+
+public class Oppgave2 {
+    public static void main(String[] args) {
+        int liste [] = {1,1,1,1,2,-4,-5,-89,200};
+        System.out.println("Tall større enn null " + Liste.storreEnnNull(liste) );
+        System.out.println("Tallet 1 forekommer " + Liste.forekommer(liste,1));
+        System.out.println("Største tallet er " + Liste.storsteTall(liste));
+    }
+}
