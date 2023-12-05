@@ -1,8 +1,6 @@
 package ramile1;
 
-import javax.xml.transform.stream.StreamSource;
-
-public class Oppgave21 {
+public class Oppgave1igjen {
     public static void main(String[] args) {
 
         int liste [] =  {-3,41,5,-3,2,49};
