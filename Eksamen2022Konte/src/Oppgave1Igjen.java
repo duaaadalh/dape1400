@@ -13,12 +13,14 @@ public class Oppgave1Igjen {
         int tall = 2;
 
         while (tall <= 100){
-            sum += 100;
+            sum += tall;
             tall += 2;
             antall++;
 
         }
         double gjennomsnitt = sum / (double) antall;
+
+        System.out.println(gjennomsnitt);
 
     }
 }

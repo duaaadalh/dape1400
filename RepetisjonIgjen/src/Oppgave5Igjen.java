@@ -52,5 +52,6 @@ public class Oppgave5Igjen {
         PapirBok1 enPapirboken = new PapirBok1("Duaa", "simone", "89236528956", 432.4);
 
 
+
     }
 }

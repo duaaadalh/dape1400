@@ -24,7 +24,7 @@ class Bok{
             this.lengdeMinutter = lengdeMinutter;
         }
         public String toString(){
-           return " Lengdeminutter= " + lengdeMinutter;
+           return super.toString()+" Lengdeminutter= " + lengdeMinutter;
         }
 
 
@@ -37,7 +37,7 @@ class Bok{
             this.ISBN = ISBN;
         }
         public String toString(){
-            return " ISBN= " + ISBN;
+            return super.toString()+" ISBN= " + ISBN;
         }
     }
 
