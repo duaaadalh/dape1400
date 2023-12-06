@@ -6,10 +6,24 @@ public class WhileLokke {
 
 
        int i = 0;
-       while (i < 10){
+       int sum = 0;
+       int antall = 0;
+       while (i < 100){
            System.out.println(i);
-           i++;
+           sum +=i;
+           i+=2;
+           antall++;
+
        }
+       System.out.print(sum + " ");
+       double gjennomsnitt = sum / (double) antall;
+
+       System.out.println(gjennomsnitt);
+
+
+
+
+
 
 
     }
