@@ -23,7 +23,7 @@ class LydBoken extends Bok1{
         this.lengdeMinutter = lengdeMinutter;
     }
     public String toString(){
-        return " Lengdeminutter= " + lengdeMinutter;
+        return super.toString()+" Lengdeminutter= " + lengdeMinutter;
     }
 }
 
@@ -35,7 +35,7 @@ class PapirBok1 extends Bok1{
     }
 
     public String toString(){
-        return " ISBN= " + ISBN;
+        return super.toString()+ " ISBN= " + ISBN;
     }
 }
 
@@ -50,6 +50,11 @@ public class Oppgave5Igjen {
         ArrayList<Bok1> bokSamling1 = new ArrayList<>();
         LydBoken enLydboken = new LydBoken("Simome", "Diaa", 423, 423);
         PapirBok1 enPapirboken = new PapirBok1("Duaa", "simone", "89236528956", 432.4);
+        bokSamling1.add(enPapirboken);
+        bokSamling1.add(enLydboken);
+        for (Bok1 enBokene : bokSamling1){
+            System.out.println(enBokene);
+        }
 
 
 

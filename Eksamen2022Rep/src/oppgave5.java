@@ -23,7 +23,7 @@ class Lydbok extends Bok{
         this.lengdeminutter = lengdeminutter;
     }
     public String toString(){
-        return ". Lengdeminutter " + lengdeminutter;
+        return super.toString()+ ". Lengdeminutter " + lengdeminutter;
     }
 }
 
@@ -33,8 +33,10 @@ class Papirbok extends Bok{
         super(forfatter, tittel, pris);
         this.ISBN = ISBN;
     }
-    public String toString(){
-        return ". ISBN: " + ISBN;
+
+    @Override
+    public String toString() {
+        return super.toString() + " ISBN= " + ISBN;
     }
 }
 
