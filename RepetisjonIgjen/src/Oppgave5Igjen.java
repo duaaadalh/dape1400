@@ -34,8 +34,10 @@ class PapirBok1 extends Bok1{
         this.ISBN = ISBN;
     }
 
+
+
     public String toString(){
-        return super.toString()+ " ISBN= " + ISBN;
+      return super.toString()+ " ISBN= " + ISBN;
     }
 }
 

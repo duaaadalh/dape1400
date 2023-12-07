@@ -41,6 +41,8 @@ class ValutaKalkulator {
 public class Oppgave2 {
     public static void main(String[] args) {
         ValutaKalkulator k = new ValutaKalkulator();
+        System.out.println("100 NOK= " + String.format("%.2f", k.beregnKurs("Dollar" + " USD")));
+        System.out.println("100 NOK= " + String.format("%.2f", k.beregnKurs("Danske kroner" + " DK")));
 
 
     }
