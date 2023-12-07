@@ -2,24 +2,27 @@ public class Oppgave1 {
 
     public static void main(String[] args) {
 
+        int sum = 0;
 
-        for (int i = 0; i < 100; i +=3){
-            i++;
-            System.out.print(i + " ");
+        for (int i = 0; i <= 1000; i+=10){
+            sum += i;
+
+          System.out.println(sum);
         }
 
-        int sum = 2;
-        int antall = 0;
-        int tall = 2;
+        sum = 0;
+        int i = 0;
 
-        while (tall <= 100){
-            sum += 100;
-            tall += 2;
-            antall++;
+        while (i <= 1000){
+            sum+=i;
+            i +=10;
+
         }
-        double gjennomsnitt = (double) sum / antall;
 
-        System.out.println(gjennomsnitt);
+        System.out.println(sum);
+
+
+
 
 
 
