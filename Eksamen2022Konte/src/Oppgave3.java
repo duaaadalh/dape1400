@@ -38,7 +38,6 @@ class Student{
 class Ansatt {
     private String tittel;
     private Personalia personalia;
-
     public Ansatt (Personalia personalia, String tittel){
 
         this.tittel = tittel;
