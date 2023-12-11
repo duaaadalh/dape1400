@@ -11,5 +11,7 @@ public class Oppgave1 {
             System.out.println(i);
             i++;
         }
+
+
     }
 }
